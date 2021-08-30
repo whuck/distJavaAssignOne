@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-dice-whuck" />
         <module name="dist-java-dice-v1" />
+        <module name="springAssignment" />
       </profile>
     </annotationProcessing>
   </component>
