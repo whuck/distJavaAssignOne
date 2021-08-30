@@ -19,6 +19,7 @@ public class SalesReportDetail implements SalesReport {
         salesList.forEach((s) -> printLine(s));
     }
     private void printHead() {
+        System.out.println("SALES DETAIL REPORT");
         System.out.format("%22s%22s%10s%10s%10s%n","Who","Where","HowMuch","Tax","Shipping");
     }
     private void printLine(Sale s){

@@ -49,6 +49,7 @@ public class SalesReportSummary implements SalesReport {
         countries.forEach((c)->printLine(c));
     }
     private void printHead() {
+        System.out.println("SALES SUMMARY REPORT");
         System.out.format("%22s%10s%10s%10s%n","Where","HowMuch","Tax","Shipping");
     }
     private void sumCountry(String countryName) {
